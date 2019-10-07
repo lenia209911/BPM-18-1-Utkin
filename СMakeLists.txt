@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.13)
+project(Complex)
+
+include_directories(Complex/include)
+add_executable(main Complex/src/main.cpp)
